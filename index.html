@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id='container' class='Container'>
+        <h1>Tовары</h1>
+        <div class='Items'>
+            <div class='item' id='01' onclick>
+                <img src="/image/tv.jpg" height="200" alt="Televizor">
+                <p class='price' id='1'>100</p>
+                <button class='item_button'>Купить</button>
+                <button class='del_button'>Удалить</button>
+            </div>
+            <div class='item' id='02' onclick>
+                <img src="/image/tv.jpg" height="200" alt="Televizor">
+                <p class='price' id='2'>120</p>
+                <button class='item_button'>Купить</button>
+                <button class='del_button'>Удалить</button>
+            </div>
+            <div class='item' id='03'>
+                <img src="/image/tv.jpg" height="200" alt="Televizor">
+                <p class='price' id='3'>200</p>
+                <button class='item_button'>Купить</button>
+                <button class='del_button'>Удалить</button>
+            </div>
+            <div class='item' id='04'>
+                <img src="/image/tv.jpg" height="200" alt="Televizor">
+                <p class='price' id='4'>350</p>
+                <button class='item_button'>Купить</button>
+                <button class='del_button'>Удалить</button>
+            </div>
+            <div class='item' id='05'>
+                <img src="/image/tv.jpg" height="200" alt="Televizor">
+                <p class='price' id='5'>500</p>
+                <button class='item_button'>Купить</button>
+                <button class='del_button'>Удалить</button>
+            </div>
+        </div>
+
+        <div class='RecycleContentFields'>
+            <h1>Корзина товаров</h1>
+
+            <div class="wrap">
+                <div class='recycleContent'>
+                    <address></address>
+                </div>
+
+                <div id='recycle' onclick>
+
+                    <div id='infotext'>Ваша корзина пуста</div>
+
+                </div>
+                <div class='infoblock'>
+                    <p class='summ'>Конечная сумма</p>
+                    <button id='clear'>Очистить корзину</button>
+
+                </div><br>
+            </div>
+        </div>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
